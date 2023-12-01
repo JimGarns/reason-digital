@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+$blue: #367d91;
+$green: #2f8375;
+$red: #cf1b46;
+
+$main-font: 'Rubik', san-serif;
+
+
+
+
+html {
+  font-size: 62.5%;
+  font-family: $main-font;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+//Typography
+
+h1 {font-size: 7.2rem;
+  font-weight: 200;
+}
+h2 {font-size: 3rem;}
+h3 {font-size: 2.2rem;}
+
+a {
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: black;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+.btn {
+  padding: 1.2rem 3rem;
+  border-radius: 10rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  outline: none;
+  border: 3px solid white;
+  transition: ease all .3s;
+
+  &--white {
+    background: #fff;
+    color: $red;
+
+    &:hover {
+      background: $red;
+      color: #fff;
+    }
+  }
+
+  &--transparent {
+    background: transparent;
+    color: #fff;
+
+    &:hover {
+      background: #fff;
+      color: $red;
+      border-color: $red;
+    }
+  }
+
+  &--red {
+    background: $red;
+    color: #fff;
+    border-color: $red;
+
+    &:hover {
+      color: $red;
+      background: #fff;
+    }
+  }
+
+  &--card {
+    background: #fff;
+    border-color: black;
+    color: $red;
+
+    &:hover {
+      border-color: $red;
+      color: #fff;
+      background: $red;
+    }
+  }
+
+}
