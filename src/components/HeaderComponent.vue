@@ -18,7 +18,7 @@
       <nav class = "bottom-nav">
 
 
-        <router-link to = '/' class = "img-link"><img src="src/assets/good-things-foundation-logo.png" alt="GTF Logo"></router-link>
+        <router-link to = '/' class = "img-link"><img src="/src/assets/good-things-foundation-logo.png" alt="GTF Logo"></router-link>
 
         <ul class = "bottom-nav__links">
           <li><RouterLink to="/">Home</RouterLink></li>
@@ -92,9 +92,6 @@ import {RouterLink} from "vue-router";
   a {
     padding: 2rem 3rem;
 
-    &:last-of-type {
-      padding-right: 0;
-    }
   }
 
   img {
