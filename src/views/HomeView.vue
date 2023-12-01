@@ -106,7 +106,7 @@ const {selected, secondSelected, dynamicDestination} = storeToRefs(store);
 
 .hero {
   padding: 200px 100px;
-  background-image: url("src/assets/photo-1506905925346-21bda4d32df4.webp");
+  background-image: url("/src/assets/photo-1506905925346-21bda4d32df4.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -137,7 +137,7 @@ const {selected, secondSelected, dynamicDestination} = storeToRefs(store);
     width: 50%;
 
     &--left {
-      background-image: url("src/assets/photo-1501908734255-16579c18c25f.webp");
+      background-image: url("/src/assets/photo-1501908734255-16579c18c25f.webp");
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
