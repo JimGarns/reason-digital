@@ -97,3 +97,17 @@ button {
   }
 
 }
+
+.template {
+
+  &__header {
+    padding: 10rem;
+    background: $green;
+    text-align: center;
+    color: #fff;
+  }
+
+  &__body {
+    padding: 10rem;
+  }
+}
