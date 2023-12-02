@@ -90,8 +90,12 @@ import {RouterLink} from "vue-router";
   }
 
   a {
-    padding: 2rem 3rem;
+    padding: 2rem 2rem;
+    margin: 0 1rem;
 
+    &:hover {
+      border-bottom: 2px solid $green;
+    }
   }
 
   img {
@@ -111,5 +115,23 @@ ul {
   border-bottom: 2px solid $red;
 }
 
+
+// In case viewed on Mac/Laptop
+
+@media screen and (max-width: 1360px) {
+
+  .bottom-nav {
+
+    a {
+      padding: 2rem 1rem;
+      margin: 0 .5rem;
+    }
+
+    img {
+      max-width: 200px;
+    }
+  }
+
+}
 
 </style>

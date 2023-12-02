@@ -31,7 +31,7 @@ const {data} = useSinglePrismicDocument('digital_divide')
     margin-top: 5rem;
   }
 
-  p{
+  p {
     margin-top: 5rem;
 
   }
