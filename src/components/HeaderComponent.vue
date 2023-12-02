@@ -87,6 +87,11 @@ import {RouterLink} from "vue-router";
 
   .img-link {
     padding-left: 0;
+    border-bottom: none;
+
+    &:hover {
+      border-bottom: none;
+    }
   }
 
   a {
